@@ -67,13 +67,83 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Pictures\ad1.png" />
+    <Content Include="Pictures\ad2.png" />
+    <Content Include="Pictures\kicia-header.png" />
+    <Content Include="style.css" />
     <Content Include="Web.config" />
+    <Content Include="Main_Page.aspx">
+      <BrowseToURL>~/Main_Page.aspx</BrowseToURL>
+    </Content>
+    <Content Include="Contact.aspx" />
+    <Content Include="History.aspx" />
+    <Content Include="Login.aspx" />
+    <Content Include="Employees.aspx" />
+    <Content Include="Adoption.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="NestedMasterPage1.master.cs">
+      <DependentUpon>NestedMasterPage1.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NestedMasterPage1.master.designer.cs">
+      <DependentUpon>NestedMasterPage1.master</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Main_Page.Master.cs">
+      <DependentUpon>Main_Page.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Main_Page.Master.designer.cs">
+      <DependentUpon>Main_Page.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Main_Page.aspx.cs">
+      <DependentUpon>Main_Page.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Main_Page.aspx.designer.cs">
+      <DependentUpon>Main_Page.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Contact.aspx.cs">
+      <DependentUpon>Contact.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Contact.aspx.designer.cs">
+      <DependentUpon>Contact.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="History.aspx.cs">
+      <DependentUpon>History.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="History.aspx.designer.cs">
+      <DependentUpon>History.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Employees.aspx.cs">
+      <DependentUpon>Employees.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Employees.aspx.designer.cs">
+      <DependentUpon>Employees.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Adoption.aspx.cs">
+      <DependentUpon>Adoption.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Adoption.aspx.designer.cs">
+      <DependentUpon>Adoption.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="NestedMasterPage1.master" />
     <None Include="packages.config" />
+    <Content Include="Main_Page.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
