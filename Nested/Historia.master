@@ -1,0 +1,22 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/Nested/Main_Page.Master" AutoEventWireup="true" CodeBehind="Historia.master.cs" Inherits="NOWE_KOTKI.NestedMasterPage4" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+
+     <div class="changableContent" style="width:100%;">
+    <h2>Historia schroniska</h2>
+<p>Jesteśmy schroniskiem, które od lat prężnie działa w granicach naszego miasta Poznań i okolic. Naszą działalność zaczeliśmy w 2000 roku i
+    z roku na rok nasze schoronisko rozrasta się coraz bardziej. W 2007 roku nasze schronisko zmieniło lokalizację i budynek i teraz mamy 
+    do dyspozycji dużo więcej miejsca!
+    
+    <br />
+    <div style="width:100%;"><asp:Image ID="Image2" runat="server" ImageUrl="~/Pictures/schronisko.jpg" Width="300px" Height="300px" CssClass="ad1" style="margin-left:20px;"/></div>
+    Nasz nowy budynek!
+    
+
+
+
+</p>
+</div>
+
+</asp:Content>

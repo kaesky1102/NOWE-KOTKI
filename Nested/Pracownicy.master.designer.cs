@@ -11,7 +11,16 @@ namespace NOWE_KOTKI
 {
 
 
-    public partial class WebForm1
+    public partial class NestedMasterPage6
     {
+
+        /// <summary>
+        /// Image2 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Image Image2;
     }
 }

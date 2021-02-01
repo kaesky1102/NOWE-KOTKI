@@ -1,0 +1,22 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/Nested/Main_Page.Master" AutoEventWireup="true" CodeBehind="MainPage.master.cs" Inherits="NOWE_KOTKI.NestedMasterPage1" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+    
+   <div class="changableContent" style="width:100%;">
+    <h2>Schronisko Nowe kotki</h2>
+<p>Jesteśmy schroniskiem, które od lat prężnie działa w granicach naszego miasta Poznań i okolic. Dbamy o to , żeby
+    wszytkie kotki i zwierzęta znalazły nowy dom i kochającą rodzinę. Ratujemy zwierzaki w potrzebie i nie zawachamy się obronić najsłabszych.
+    Skontaktuj się z nami jeśli chcesz zostać wolontariuszem!
+    
+    <br />
+    <br />
+    <asp:Image ID="Image1" runat="server" ImageUrl="~/Pictures/kotekkraty.jpg" Width="300px" Height="300px" CssClass="ad1" style="margin-left:20px;"/>
+    <asp:Image ID="Image2" runat="server" ImageUrl="~/Pictures/kraty2.jpg" Width="300px" Height="300px" CssClass="ad1" style="margin-left:20px;"/>
+    <asp:Image ID="Image3" runat="server" ImageUrl="~/Pictures/kraty3.jpg" Width="300px" Height="300px" CssClass="ad1" style="margin-left:20px;"/>
+
+
+
+</p>
+</div>
+</asp:Content>

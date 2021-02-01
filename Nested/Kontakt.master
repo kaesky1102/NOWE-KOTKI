@@ -1,0 +1,20 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/Nested/Main_Page.Master" AutoEventWireup="true" CodeBehind="Kontakt.master.cs" Inherits="NOWE_KOTKI.NestedMasterPage2" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+    <div class="changableContent" style="width:100%; text-align:center; padding-top:50px;">
+    <h2>Kontakt</h2>
+<p>Schronisko dla zwierząt w Poznaniu<br /><br />
+
+ul. Bukowska 266, 60-189 Poznań<br /><br />
+
+00 868 10 00<br /><br />
+
+00 868 10 01<br /><br />
+
+biuro@schronisko.com<br /><br />
+
+</p>
+</div>
+</asp:Content>

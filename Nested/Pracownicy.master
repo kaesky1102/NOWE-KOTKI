@@ -1,0 +1,20 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/Nested/Main_Page.Master" AutoEventWireup="true" CodeBehind="Pracownicy.master.cs" Inherits="NOWE_KOTKI.NestedMasterPage6" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+
+     <div class="changableContent" style="width:100%;">
+    <h2>Pracownicy</h2>
+<p>
+    Nasz zespół zasilają między innymi: Barbara Kaniewska, Dominik Błaszczyk, Edyta Janicka, Małgorzata Kożuchowska, Beata Kozidrak i wielu, wielu innych pracowników jak i wolontariuszy!
+    
+    <br />
+    <div style="width:100%;"><asp:Image ID="Image2" runat="server" ImageUrl="~/Pictures/pracownicy.jpeg" Width="400px" Height="300px" CssClass="ad1" style="margin-left:20px;"/></div>
+    Nasz zespół!
+    
+
+
+
+</p>
+</div>
+</asp:Content>

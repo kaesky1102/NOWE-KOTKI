@@ -67,10 +67,15 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Pictures\pracownicy.jpeg" />
+    <Content Include="Pictures\schronisko.jpg" />
+    <Content Include="Pictures\kraty3.jpg" />
     <Content Include="Pictures\ad1.png" />
     <Content Include="Pictures\ad2.png" />
+    <Content Include="Pictures\kraty2.jpg" />
     <Content Include="Pictures\kicia-header.png" />
-    <Content Include="style.css" />
+    <Content Include="Pictures\kotekkraty.jpg" />
+    <Content Include="Nested\style.css" />
     <Content Include="Web.config" />
     <Content Include="Main_Page.aspx">
       <BrowseToURL>~/Main_Page.aspx</BrowseToURL>
@@ -80,23 +85,66 @@
     <Content Include="Login.aspx" />
     <Content Include="Employees.aspx" />
     <Content Include="Adoption.aspx" />
+    <Content Include="Kot1.aspx" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="NestedMasterPage1.master.cs">
-      <DependentUpon>NestedMasterPage1.master</DependentUpon>
+    <Compile Include="Nested\Kot1.master.cs">
+      <DependentUpon>Kot1.master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="NestedMasterPage1.master.designer.cs">
-      <DependentUpon>NestedMasterPage1.master</DependentUpon>
+    <Compile Include="Nested\Kot1.master.designer.cs">
+      <DependentUpon>Kot1.master</DependentUpon>
+    </Compile>
+    <Compile Include="Nested\Pracownicy.master.cs">
+      <DependentUpon>Pracownicy.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Nested\Pracownicy.master.designer.cs">
+      <DependentUpon>Pracownicy.master</DependentUpon>
+    </Compile>
+    <Compile Include="Nested\Logowanie.master.cs">
+      <DependentUpon>Logowanie.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Nested\Logowanie.master.designer.cs">
+      <DependentUpon>Logowanie.master</DependentUpon>
+    </Compile>
+    <Compile Include="Nested\Adopcja.master.cs">
+      <DependentUpon>Adopcja.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Nested\Adopcja.master.designer.cs">
+      <DependentUpon>Adopcja.master</DependentUpon>
+    </Compile>
+    <Compile Include="Nested\Historia.master.cs">
+      <DependentUpon>Historia.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Nested\Historia.master.designer.cs">
+      <DependentUpon>Historia.master</DependentUpon>
+    </Compile>
+    <Compile Include="Nested\Kontakt.master.cs">
+      <DependentUpon>Kontakt.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Nested\Kontakt.master.designer.cs">
+      <DependentUpon>Kontakt.master</DependentUpon>
+    </Compile>
+    <Compile Include="Nested\MainPage.master.cs">
+      <DependentUpon>MainPage.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Nested\MainPage.master.designer.cs">
+      <DependentUpon>MainPage.master</DependentUpon>
+    </Compile>
+    <Compile Include="Nested\Main_Page.Master.cs">
+      <DependentUpon>Main_Page.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Nested\Main_Page.Master.designer.cs">
+      <DependentUpon>Main_Page.Master</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Main_Page.Master.cs">
-      <DependentUpon>Main_Page.Master</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Main_Page.Master.designer.cs">
-      <DependentUpon>Main_Page.Master</DependentUpon>
-    </Compile>
     <Compile Include="Main_Page.aspx.cs">
       <DependentUpon>Main_Page.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -139,11 +187,24 @@
     <Compile Include="Adoption.aspx.designer.cs">
       <DependentUpon>Adoption.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Kot1.aspx.cs">
+      <DependentUpon>Kot1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Kot1.aspx.designer.cs">
+      <DependentUpon>Kot1.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="NestedMasterPage1.master" />
+    <Content Include="Nested\MainPage.master" />
+    <Content Include="Nested\Adopcja.master" />
+    <Content Include="Nested\Historia.master" />
+    <Content Include="Nested\Kontakt.master" />
+    <Content Include="Nested\Main_Page.Master" />
+    <Content Include="Nested\Logowanie.master" />
+    <Content Include="Nested\Pracownicy.master" />
+    <Content Include="Nested\Kot1.master" />
     <None Include="packages.config" />
-    <Content Include="Main_Page.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -151,6 +212,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

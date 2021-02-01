@@ -30,7 +30,7 @@
                 <asp:MenuItem Text="Pracownicy" Value="Pracownicy" NavigateUrl="~/Employees.aspx"></asp:MenuItem>
                 <asp:MenuItem Text="Adopcja" Value="Adopcja" NavigateUrl="~/Adoption.aspx"></asp:MenuItem>
                 <asp:MenuItem Text="Logowanie" Value="Logowanie" NavigateUrl="~/Login.aspx"></asp:MenuItem>
-                <asp:MenuItem Text="Nasi Podopieczni" Value="Nasi Podopieczni"></asp:MenuItem>
+                <asp:MenuItem Text="Nasi Podopieczni" Value="Nasi Podopieczni" NavigateUrl="~/Kot1.aspx"></asp:MenuItem>
                 
             </Items>
                 <StaticHoverStyle BackColor="#284E98" ForeColor="pink" />
@@ -50,9 +50,8 @@
                         
                 </div>
 
-            <div class="changableContent"> <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
-                     <p>
-                         &nbsp;</p>
+            <div class="changableContent"> <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server" ValidateRequestMode="Inherit" ViewStateMode="Inherit">
+                     
                      </asp:ContentPlaceHolder></div>
 
                 
