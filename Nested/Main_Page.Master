@@ -16,7 +16,7 @@
         <div class="header"><asp:Image ID="Image1" runat="server" ImageUrl="~/Pictures/kicia-header.png" /></div>
         
         <div class="menu">
-            <asp:Menu runat="server" BackColor="#B5C7DE" DynamicHorizontalOffset="2" Font-Names="Verdana" Font-Size="17px" ForeColor="#284E98" StaticSubMenuIndent="10px" Orientation="Horizontal" CssClass="menu">
+            <asp:Menu runat="server" BackColor="#B5C7DE" DynamicHorizontalOffset="2" Font-Names="Verdana" Font-Size="17px" ForeColor="#284E98" StaticSubMenuIndent="10px" Orientation="Horizontal" CssClass="menu" OnMenuItemClick="Unnamed1_MenuItemClick">
            
                 <DynamicHoverStyle BackColor="#284E98" ForeColor="White" />
                 <DynamicMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
@@ -29,7 +29,7 @@
                 <asp:MenuItem Text="Historia" Value="Historia" NavigateUrl="~/History.aspx"></asp:MenuItem>
                 <asp:MenuItem Text="Pracownicy" Value="Pracownicy" NavigateUrl="~/Employees.aspx"></asp:MenuItem>
                 <asp:MenuItem Text="Adopcja" Value="Adopcja" NavigateUrl="~/Adoption.aspx"></asp:MenuItem>
-                <asp:MenuItem Text="Logowanie" Value="Logowanie" NavigateUrl="~/Login.aspx"></asp:MenuItem>
+                <asp:MenuItem Text="Kocie centrum" Value="Logowanie" NavigateUrl="~/Protected/Hidden.aspx"></asp:MenuItem>
                 <asp:MenuItem Text="Nasi Podopieczni" Value="Nasi Podopieczni" NavigateUrl="~/Kot1.aspx"></asp:MenuItem>
                 
             </Items>

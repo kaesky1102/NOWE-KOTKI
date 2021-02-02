@@ -1,0 +1,136 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/Nested/Main_Page.Master" AutoEventWireup="true" CodeBehind="Ukryta.master.cs" Inherits="NOWE_KOTKI.Ukryta" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+    <asp:ListView ID="ListView1" runat="server" DataKeyNames="Id" DataSourceID="SqlDataSource1" InsertItemPosition="LastItem">
+        <AlternatingItemTemplate>
+            <li style="background-color: #FAFAD2;color: #284775;">Id:
+                <asp:Label ID="IdLabel" runat="server" Text='<%# Eval("Id") %>' />
+                <br />
+                Imie:
+                <asp:Label ID="ImieLabel" runat="server" Text='<%# Eval("Imie") %>' />
+                <br />
+                Rasa:
+                <asp:Label ID="RasaLabel" runat="server" Text='<%# Eval("Rasa") %>' />
+                <br />
+                Wiek:
+                <asp:Label ID="WiekLabel" runat="server" Text='<%# Eval("Wiek") %>' />
+                <br />
+                StanZdrowia:
+                <asp:Label ID="StanZdrowiaLabel" runat="server" Text='<%# Eval("StanZdrowia") %>' />
+                <br />
+                <asp:Button ID="EditButton" runat="server" CommandName="Edit" Text="Edytuj" />
+                <asp:Button ID="DeleteButton" runat="server" CommandName="Delete" Text="Usuń" />
+            </li>
+        </AlternatingItemTemplate>
+        <EditItemTemplate>
+            <li style="background-color: #FFCC66;color: #000080;">Id:
+                <asp:Label ID="IdLabel1" runat="server" Text='<%# Eval("Id") %>' />
+                <br />
+                Imie:
+                <asp:TextBox ID="ImieTextBox" runat="server" Text='<%# Bind("Imie") %>' />
+                <br />
+                Rasa:
+                <asp:TextBox ID="RasaTextBox" runat="server" Text='<%# Bind("Rasa") %>' />
+                <br />
+                Wiek:
+                <asp:TextBox ID="WiekTextBox" runat="server" Text='<%# Bind("Wiek") %>' />
+                <br />
+                StanZdrowia:
+                <asp:TextBox ID="StanZdrowiaTextBox" runat="server" Text='<%# Bind("StanZdrowia") %>' />
+                <br />
+                <asp:Button ID="UpdateButton" runat="server" CommandName="Update" Text="Aktualizuj" />
+                <asp:Button ID="CancelButton" runat="server" CommandName="Cancel" Text="Anuluj" />
+            </li>
+        </EditItemTemplate>
+        <EmptyDataTemplate>
+            Nie zostały zwrócone żadne dane.
+        </EmptyDataTemplate>
+        <InsertItemTemplate>
+            <li style="">Id:
+                <asp:TextBox ID="IdTextBox" runat="server" Text='<%# Bind("Id") %>' />
+                <br />Imie:
+                <asp:TextBox ID="ImieTextBox" runat="server" Text='<%# Bind("Imie") %>' />
+                <br />Rasa:
+                <asp:TextBox ID="RasaTextBox" runat="server" Text='<%# Bind("Rasa") %>' />
+                <br />Wiek:
+                <asp:TextBox ID="WiekTextBox" runat="server" Text='<%# Bind("Wiek") %>' />
+                <br />StanZdrowia:
+                <asp:TextBox ID="StanZdrowiaTextBox" runat="server" Text='<%# Bind("StanZdrowia") %>' />
+                <br />
+                <asp:Button ID="InsertButton" runat="server" CommandName="Insert" Text="Wstaw" />
+                <asp:Button ID="CancelButton" runat="server" CommandName="Cancel" Text="Wyczyść" />
+            </li>
+        </InsertItemTemplate>
+        <ItemSeparatorTemplate>
+<br />
+        </ItemSeparatorTemplate>
+        <ItemTemplate>
+            <li style="background-color: #FFFBD6;color: #333333;">Id:
+                <asp:Label ID="IdLabel" runat="server" Text='<%# Eval("Id") %>' />
+                <br />
+                Imie:
+                <asp:Label ID="ImieLabel" runat="server" Text='<%# Eval("Imie") %>' />
+                <br />
+                Rasa:
+                <asp:Label ID="RasaLabel" runat="server" Text='<%# Eval("Rasa") %>' />
+                <br />
+                Wiek:
+                <asp:Label ID="WiekLabel" runat="server" Text='<%# Eval("Wiek") %>' />
+                <br />
+                StanZdrowia:
+                <asp:Label ID="StanZdrowiaLabel" runat="server" Text='<%# Eval("StanZdrowia") %>' />
+                <br />
+                <asp:Button ID="EditButton" runat="server" CommandName="Edit" Text="Edytuj" />
+                <asp:Button ID="DeleteButton" runat="server" CommandName="Delete" Text="Usuń" />
+            </li>
+        </ItemTemplate>
+        <LayoutTemplate>
+            <ul id="itemPlaceholderContainer" runat="server" style="font-family: Verdana, Arial, Helvetica, sans-serif;">
+                <li runat="server" id="itemPlaceholder" />
+            </ul>
+            <div style="text-align: center;background-color: #FFCC66;font-family: Verdana, Arial, Helvetica, sans-serif;color: #333333;">
+            </div>
+        </LayoutTemplate>
+        <SelectedItemTemplate>
+            <li style="background-color: #FFCC66;font-weight: bold;color: #000080;">Id:
+                <asp:Label ID="IdLabel" runat="server" Text='<%# Eval("Id") %>' />
+                <br />
+                Imie:
+                <asp:Label ID="ImieLabel" runat="server" Text='<%# Eval("Imie") %>' />
+                <br />
+                Rasa:
+                <asp:Label ID="RasaLabel" runat="server" Text='<%# Eval("Rasa") %>' />
+                <br />
+                Wiek:
+                <asp:Label ID="WiekLabel" runat="server" Text='<%# Eval("Wiek") %>' />
+                <br />
+                StanZdrowia:
+                <asp:Label ID="StanZdrowiaLabel" runat="server" Text='<%# Eval("StanZdrowia") %>' />
+                <br />
+                <asp:Button ID="EditButton" runat="server" CommandName="Edit" Text="Edytuj" />
+                <asp:Button ID="DeleteButton" runat="server" CommandName="Delete" Text="Usuń" />
+            </li>
+        </SelectedItemTemplate>
+    </asp:ListView>
+    <asp:SqlDataSource ID="SqlDataSource2" runat="server"></asp:SqlDataSource>
+    <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString %>" DeleteCommand="DELETE FROM [Dane3] WHERE [Id] = @Id" InsertCommand="INSERT INTO [Dane3] ([Id], [Imie], [Rasa], [Wiek], [StanZdrowia]) VALUES (@Id, @Imie, @Rasa, @Wiek, @StanZdrowia)" SelectCommand="SELECT * FROM [Dane3]" UpdateCommand="UPDATE [Dane3] SET [Imie] = @Imie, [Rasa] = @Rasa, [Wiek] = @Wiek, [StanZdrowia] = @StanZdrowia WHERE [Id] = @Id">
+        <DeleteParameters>
+            <asp:Parameter Name="Id" Type="Int32" />
+        </DeleteParameters>
+        <InsertParameters>
+            <asp:Parameter Name="Id" Type="Int32" />
+            <asp:Parameter Name="Imie" Type="String" />
+            <asp:Parameter Name="Rasa" Type="String" />
+            <asp:Parameter Name="Wiek" Type="Int32" />
+            <asp:Parameter Name="StanZdrowia" Type="String" />
+        </InsertParameters>
+        <UpdateParameters>
+            <asp:Parameter Name="Imie" Type="String" />
+            <asp:Parameter Name="Rasa" Type="String" />
+            <asp:Parameter Name="Wiek" Type="Int32" />
+            <asp:Parameter Name="StanZdrowia" Type="String" />
+            <asp:Parameter Name="Id" Type="Int32" />
+        </UpdateParameters>
+    </asp:SqlDataSource>
+</asp:Content>

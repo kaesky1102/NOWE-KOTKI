@@ -2,6 +2,46 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+     <div class="changableContent" style="width:100%;">
+    <h2>Adopcja w czasie pandemii</h2>
+<p>Jesteśmy zobowiązani dbać o Państwa bezpieczeństwo. Z przykrością informujemy, że na czas rozwijającej się pandemii COVID-19 nasze schronisko pozostaje pod 
+    ostrymi zasadami i formalności związane z adopcją należy załatwiać jedynie internetowo. Poniżej przedstawiamy Państwu formularz kontaktowy, który
+    po wypełnieniu zostanie do nas przesłany pocztą. W ciągu 48h odpowiemy telefonicznie, więc proszę pozostać w zasięgu!
+    <br>Oczywiście odbiór kotka następuje w najbezpieczniejszych warunkach, to możemy Państwu zapewnić :)</p>
+         <p>&nbsp;</p>
+         <p>
+             <asp:TextBox ID="TextBox5" runat="server" BorderColor="Blue" ReadOnly="True" Width="90px">Imie i nazwisko</asp:TextBox>
+             <asp:TextBox ID="TextBox6" runat="server" style="margin-left: 12px" Width="400px"></asp:TextBox>
 
+</p>
+         <p>
+             <asp:TextBox ID="TextBox7" runat="server" BorderColor="Blue" ReadOnly="True" Width="90px">Numer telefonu</asp:TextBox>
+             <asp:TextBox ID="TextBox8" runat="server" style="margin-left: 12px" Width="400px"></asp:TextBox>
+
+</p>
+         <p>
+             <asp:TextBox ID="TextBox3" runat="server" BorderColor="Blue" ReadOnly="True" Width="90px">Imie kota</asp:TextBox>
+             <asp:TextBox ID="TextBox4" runat="server" style="margin-left: 12px" Width="400px"></asp:TextBox>
+
+</p>
+         <p><br />
+             <asp:TextBox ID="TextBox1" runat="server" BorderColor="Blue" ReadOnly="True" Width="90px">Uwagi</asp:TextBox>
+             <asp:TextBox ID="TextBox2" runat="server" Height="134px" style="margin-left: 12px" Width="400px" Wrap="False"></asp:TextBox>
+
+</p>
+         <p>
+             <asp:Button ID="Button1" runat="server" BackColor="#CCFFCC" Height="38px" OnClick="Button1_Click" Text="Wyślij" Width="75px" />
+
+</p>
+         <p>
+             <asp:Label ID="Label1" runat="server" Text="Zgłoszenie wysłano! Odpowiedzi oczekuj w ciągu 48h." Visible="False"></asp:Label>
+
+</p>
+         <p>
+    <br />
+
+</p>
+
+</div>
 
 </asp:Content>

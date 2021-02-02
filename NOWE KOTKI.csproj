@@ -67,6 +67,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Data\Formularze dane.mdf" />
+    <Content Include="App_Data\Formularze dane_log.ldf">
+      <DependentUpon>Formularze dane.mdf</DependentUpon>
+    </Content>
+    <Content Include="Protected\Hidden.aspx" />
     <Content Include="Pictures\pracownicy.jpeg" />
     <Content Include="Pictures\schronisko.jpg" />
     <Content Include="Pictures\kraty3.jpg" />
@@ -88,6 +93,13 @@
     <Content Include="Kot1.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Protected\Hidden.aspx.cs">
+      <DependentUpon>Hidden.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Protected\Hidden.aspx.designer.cs">
+      <DependentUpon>Hidden.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Nested\Kot1.master.cs">
       <DependentUpon>Kot1.master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -194,6 +206,13 @@
     <Compile Include="Kot1.aspx.designer.cs">
       <DependentUpon>Kot1.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Nested\Ukryta.master.cs">
+      <DependentUpon>Ukryta.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Nested\Ukryta.master.designer.cs">
+      <DependentUpon>Ukryta.master</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="Nested\MainPage.master" />
@@ -204,7 +223,9 @@
     <Content Include="Nested\Logowanie.master" />
     <Content Include="Nested\Pracownicy.master" />
     <Content Include="Nested\Kot1.master" />
+    <Content Include="Protected\Web.config" />
     <None Include="packages.config" />
+    <Content Include="Nested\Ukryta.master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

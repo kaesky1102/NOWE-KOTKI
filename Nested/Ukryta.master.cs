@@ -7,14 +7,9 @@ using System.Web.UI.WebControls;
 
 namespace NOWE_KOTKI
 {
-    public partial class Site1 : System.Web.UI.MasterPage
+    public partial class Ukryta : System.Web.UI.MasterPage
     {
         protected void Page_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        protected void Unnamed1_MenuItemClick(object sender, MenuEventArgs e)
         {
 
         }
