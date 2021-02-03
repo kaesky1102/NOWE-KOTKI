@@ -7,7 +7,7 @@
 <p>Jesteśmy zobowiązani dbać o Państwa bezpieczeństwo. Z przykrością informujemy, że na czas rozwijającej się pandemii COVID-19 nasze schronisko pozostaje pod 
     ostrymi zasadami i formalności związane z adopcją należy załatwiać jedynie internetowo. Poniżej przedstawiamy Państwu formularz kontaktowy, który
     po wypełnieniu zostanie do nas przesłany pocztą. W ciągu 48h odpowiemy telefonicznie, więc proszę pozostać w zasięgu!
-    <br>Oczywiście odbiór kotka następuje w najbezpieczniejszych warunkach, to możemy Państwu zapewnić :)</p>
+    <br>Oczywiście odbiór kotka następuje w najbezpieczniejszych warunkach, to możemy Państwu zapewnić. :)</p>
          <p>&nbsp;</p>
          <p>
              <asp:TextBox ID="TextBox5" runat="server" BorderColor="Blue" ReadOnly="True" Width="90px">Imie i nazwisko</asp:TextBox>
