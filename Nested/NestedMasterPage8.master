@@ -1,0 +1,18 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/Nested/Main_Page.Master" AutoEventWireup="true" CodeBehind="NestedMasterPage8.master.cs" Inherits="NOWE_KOTKI.NestedMasterPage8" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+    <asp:Image ID="Image2" runat="server" Height="300px" ImageUrl="~/Pictures/kitku1.jpg" />
+<br />
+Córuś<br />
+<p style="box-sizing: border-box; margin: 0px 0px 26px; color: rgb(67, 73, 85); font-family: &quot;PT Sans&quot;, sans-serif; font-size: 15px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;">
+    Córuś w swoim kocim życiu niestety wiele przeszła. Trafiła do Schroniska w bardzo złym stanie, przez co dzisiaj wymaga nieco więcej troski i uwagi. Jednak żadne z tych przykrych doświadczeń nie złamało w niej ducha, o nie! Córuś jest pełną zaufania i miłości, dzielną i rezolutną panną, która ponad wszystko kocha ludzi. Delikatna i spokojna lubi oddawać się pieszczotom i wskakiwać na ludzkie kolana. Przez inne zwierzęta jest niekiedy przytłoczona i może być w relacjach z nimi spięta, ale nigdy nie szuka zaczepki. (Warto dodać, że przy okazji jednego z pobytów w schroniskowym szpitalu miała styczność z Panem Ząbkiem, maleńkim psiakiem w typie Yorka o mocnym i oryginalnym charakterku – ta dwójka od razu przypadła sobie do gustu, więc przy odpowiednim zapoznaniu współlokatorzy i innych gatunków nie powinni dla niej stanowić problemu). W wolnym czasie, kiedy akurat nie jest w centrum uwagi Kocich Opiekunek i Wolontariuszy bądź też nie ucztuje, rusza w wir zabaw i wymyślnych figli lub… 
+    wyrusza na zwiady!
+    <br />
+    <br />
+    <asp:Button ID="Button1" runat="server" Text="Kolejny podopieczny" OnClick="Button1_Click" />
+    <br />
+    <asp:Button ID="Button2" runat="server" Text="Poprzedni podopieczny" OnClick="Button2_Click" />
+</p>
+&nbsp;
+</asp:Content>

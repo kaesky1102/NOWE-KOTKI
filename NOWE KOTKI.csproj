@@ -71,6 +71,17 @@
     <Content Include="App_Data\Formularze dane_log.ldf">
       <DependentUpon>Formularze dane.mdf</DependentUpon>
     </Content>
+    <Content Include="kotek3.aspx" />
+    <Content Include="Kotek4.aspx" />
+    <Content Include="Kotek5.aspx" />
+    <Content Include="Kotek6.aspx" />
+    <Content Include="NestedMasterPage8.aspx" />
+    <Content Include="Pictures\kitku1.jpg" />
+    <Content Include="Pictures\kitku2.jpeg" />
+    <Content Include="Pictures\kitku3.jpg" />
+    <Content Include="Pictures\kitku4.jpg" />
+    <Content Include="Pictures\kitku5.jpg" />
+    <Content Include="Pictures\kitku6.jpg" />
     <Content Include="Protected\Hidden.aspx" />
     <Content Include="Pictures\pracownicy.jpeg" />
     <Content Include="Pictures\schronisko.jpg" />
@@ -91,8 +102,79 @@
     <Content Include="Employees.aspx" />
     <Content Include="Adoption.aspx" />
     <Content Include="Kot1.aspx" />
+    <Content Include="WebForm8.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="kotek3.aspx.cs">
+      <DependentUpon>kotek3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="kotek3.aspx.designer.cs">
+      <DependentUpon>kotek3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Kotek4.aspx.cs">
+      <DependentUpon>Kotek4.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Kotek4.aspx.designer.cs">
+      <DependentUpon>Kotek4.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Kotek5.aspx.cs">
+      <DependentUpon>Kotek5.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Kotek5.aspx.designer.cs">
+      <DependentUpon>Kotek5.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Kotek6.aspx.cs">
+      <DependentUpon>Kotek6.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Kotek6.aspx.designer.cs">
+      <DependentUpon>Kotek6.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Nested\Kotek6.master.cs">
+      <DependentUpon>Kotek6.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Nested\Kotek6.master.designer.cs">
+      <DependentUpon>Kotek6.master</DependentUpon>
+    </Compile>
+    <Compile Include="Nested\Kotek5.master.cs">
+      <DependentUpon>Kotek5.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Nested\Kotek5.master.designer.cs">
+      <DependentUpon>Kotek5.master</DependentUpon>
+    </Compile>
+    <Compile Include="Nested\Kotek4.master.cs">
+      <DependentUpon>Kotek4.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Nested\Kotek4.master.designer.cs">
+      <DependentUpon>Kotek4.master</DependentUpon>
+    </Compile>
+    <Compile Include="Nested\kotek3.master.cs">
+      <DependentUpon>kotek3.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Nested\kotek3.master.designer.cs">
+      <DependentUpon>kotek3.master</DependentUpon>
+    </Compile>
+    <Compile Include="NestedMasterPage8.aspx.cs">
+      <DependentUpon>NestedMasterPage8.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NestedMasterPage8.aspx.designer.cs">
+      <DependentUpon>NestedMasterPage8.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Nested\NestedMasterPage8.master.cs">
+      <DependentUpon>NestedMasterPage8.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Nested\NestedMasterPage8.master.designer.cs">
+      <DependentUpon>NestedMasterPage8.master</DependentUpon>
+    </Compile>
     <Compile Include="Protected\Hidden.aspx.cs">
       <DependentUpon>Hidden.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -213,6 +295,13 @@
     <Compile Include="Nested\Ukryta.master.designer.cs">
       <DependentUpon>Ukryta.master</DependentUpon>
     </Compile>
+    <Compile Include="WebForm8.aspx.cs">
+      <DependentUpon>WebForm8.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm8.aspx.designer.cs">
+      <DependentUpon>WebForm8.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="Nested\MainPage.master" />
@@ -224,6 +313,11 @@
     <Content Include="Nested\Pracownicy.master" />
     <Content Include="Nested\Kot1.master" />
     <Content Include="Protected\Web.config" />
+    <Content Include="Nested\NestedMasterPage8.master" />
+    <Content Include="Nested\kotek3.master" />
+    <Content Include="Nested\Kotek4.master" />
+    <Content Include="Nested\Kotek5.master" />
+    <Content Include="Nested\Kotek6.master" />
     <None Include="packages.config" />
     <Content Include="Nested\Ukryta.master" />
     <None Include="Web.Debug.config">

@@ -1,0 +1,15 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/Nested/Main_Page.Master" AutoEventWireup="true" CodeBehind="Kotek4.master.cs" Inherits="NOWE_KOTKI.Kotek4" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+    <asp:Image ID="Image2" runat="server" Height="300px" ImageUrl="~/Pictures/kitku4.jpg" />
+    <br />
+    Lesio<br />
+    <span style="color: rgb(67, 73, 85); font-family: &quot;PT Sans&quot;, sans-serif; font-size: 15px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">Lesio to sporych rozmiarów kocur o umaszczeniu pięknego pingwinka. Lesiu lubi sobie pojeśc, ale nic nie wygra z zabawą. To kot idealny dla wędkarza! 🙂 Kocha wędki miłością szczerą i bezgraniczną, a podczas zabawy nic się dla niego innego nie liczy. Bo nasz Lesio zabawie oddaje się z pełnym zaangażowaniem i godną pochwały koncentracją! Podobno wspólna pasja łączy najbardziej, a czas spędzony na dobrej zabawie zbliża jak nic innego! Lesio 
+    jest jeszcze ostrożny, ale otwiera się coraz bardziej. Szuka doświadczonego i cierpliwego domu, który da mu czas i przestrzeń, żeby mógł poczuć się komfortowo.</span><br />
+    <br />
+    <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Kolejny podopieczny" />
+    <br />
+    <asp:Button ID="Button2" runat="server" OnClick="Button2_Click" Text="Poprzedni podopieczny" />
+    <br />
+</asp:Content>

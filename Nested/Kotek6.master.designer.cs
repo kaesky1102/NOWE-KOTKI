@@ -11,7 +11,7 @@ namespace NOWE_KOTKI
 {
 
 
-    public partial class NestedMasterPage7
+    public partial class Kotek6
     {
 
         /// <summary>

@@ -11,7 +11,7 @@ namespace NOWE_KOTKI
 {
 
 
-    public partial class NestedMasterPage7
+    public partial class NestedMasterPage8
     {
 
         /// <summary>
@@ -31,5 +31,14 @@ namespace NOWE_KOTKI
         /// By zmodyfikować deklaracje pola przenieś ją z pliku projektanta do pliku codebehind.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button Button1;
+
+        /// <summary>
+        /// Kontrolka Button2.
+        /// </summary>
+        /// <remarks>
+        /// Pole generowane automatycznie.
+        /// By zmodyfikować deklaracje pola przenieś ją z pliku projektanta do pliku codebehind.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button Button2;
     }
 }

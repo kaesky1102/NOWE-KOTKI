@@ -1,0 +1,15 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/Nested/Main_Page.Master" AutoEventWireup="true" CodeBehind="Kotek5.master.cs" Inherits="NOWE_KOTKI.Kotek5" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+    <asp:Image ID="Image2" runat="server" Height="300px" ImageUrl="~/Pictures/kitku5.jpg" />
+    <br />
+    Elza<br />
+    <span style="color: rgb(67, 73, 85); font-family: &quot;PT Sans&quot;, sans-serif; font-size: 15px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">Zdecydowanie ma tę moc! 🙂 To dojrzalsza kotka (ale jeszcze nie seniorka!) o duszy młodziutkiego kociaka. Można godzinami patrzeć, jak bawi się wędką czy piłeczką. Elza bywa nieśmiała, ale gdy zacznie się ją głaskać, to zapomina się bez reszty i z ufnością oddaje czułościom. Zdarza się, że inne koty ją rozpraszają, wtedy może pacnąć kolegę lub koleżankę ostrzegawczo łapką. Sam na sam z czlowiekiem – to kot złoto! Koteczka lubi dobrze zjeść, 
+    ale ma to szczęście, że po niej nie widać. Jeśli powyższe Cię nie przekonuje, to przekona Cię z pewnością jej cudowny profil z zadartym noskiem.</span><br />
+    <br />
+    <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Kolejny podopieczny" />
+    <br />
+    <asp:Button ID="Button2" runat="server" OnClick="Button2_Click" Text="Poprzedni podopieczny " />
+    <br />
+</asp:Content>

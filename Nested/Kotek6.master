@@ -1,0 +1,13 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/Nested/Main_Page.Master" AutoEventWireup="true" CodeBehind="Kotek6.master.cs" Inherits="NOWE_KOTKI.Kotek6" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+    <asp:Image ID="Image2" runat="server" Height="300px" ImageUrl="~/Pictures/kitku6.jpg" />
+    <br />
+    Kotlet<br />
+    <span style="color: rgb(67, 73, 85); font-family: &quot;PT Sans&quot;, sans-serif; font-size: 15px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">Monsieur KOTLET. To imię zobowiązuje! Ten kocur uwielbia zajadać. Trudno go odciągnąć od jedzenia. Na szczęście Kotlet nie szuka tylko smaczków, ale także kontaktu z człowiekiem! Nie przepada natomiast za towarzystwem innych kotów i źle znosi pobyt w “tłocznym” Schronisku. Szukamy dla niego spokojnego domu, w którym będzie królował jako jedynak – stanie się wtedy doskonałym kompanem dla swojego człowieka. No cóż – niektórzy pragną 
+    wyłączności i Kotlecik właśnie taki jest.</span><br />
+    <br />
+    <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Poprzedni podopieczny" />
+    <br />
+</asp:Content>

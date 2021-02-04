@@ -2,4 +2,11 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+    <asp:Image ID="Image2" runat="server" Height="300px" ImageUrl="~/Pictures/kitku2.jpeg" />
+<br />
+Cezary<br />
+<p style="box-sizing: border-box; margin: 0px 0px 26px; color: rgb(67, 73, 85); font-family: &quot;PT Sans&quot;, sans-serif; font-size: 15px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;">
+    Zielonooki jegomość o czarnym, lśniącym futerku. Jego pasją są wszelkiej maści szeleszczące zabawki. Dzielnie tupta z nimi i znosi do swojej kociej norki. W kontakcie z człowiekiem utrzymuje dystans, ale wszyscy wierzą, że bezpieczny dom pozwoli mu zaufać dwunogim. Drakon trafił do schroniska jako kociak, a teraz jako ponadroczny gentleman wciąż poszukuje lokum, w którym może poczuć się pewnie. Miejsca, gdzie zadba o niego odpowiedzialny człowiek, da mu czas i pozwoli nabrać zaufania.</p>
+<asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Kolejny podopieczny " />
+<br class="Apple-interchange-newline" />
 </asp:Content>

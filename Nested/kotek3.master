@@ -1,0 +1,19 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/Nested/Main_Page.Master" AutoEventWireup="true" CodeBehind="kotek3.master.cs" Inherits="NOWE_KOTKI.kotek3" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+    <asp:Image ID="Image2" runat="server" Height="300px" ImageUrl="~/Pictures/kitku3.jpg" />
+    <br />
+    Budrys<br />
+    <span style="color: rgb(67, 73, 85); font-family: &quot;PT Sans&quot;, sans-serif; font-size: 15px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">Budrys to dziewięciomiesięczny kocurek. Przy pierwszym kontakcie – w porównaniu do swoich szalonych, kocich sąsiadów, czyli innych przedstawicieli naszej schroniskowej młodzieży – wydaje się być odrobinę spokojniejszym reprezentantem mruczących podlotków. “Nieco bardziej cichy” jak określają wolontariusze, ale kontaktowy. Jesteśmy pewni, że drzemie w nim dużo werwy, która niechybnie się uaktywni. Porządny z niego kot, co do tego nie mamy 
+    wątpliwości. Jest bardzo nakierowany na człowieka, to ogromna przylepa! Na pewno wspaniale rozkwitnie w domu. Budrys jest już po zabiegu kastracji.</span><br />
+    <br />
+    <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Kolejny podopieczny" />
+    <br />
+    <asp:Button ID="Button2" runat="server" OnClick="Button2_Click1" Text="Poprzedni podopieczny" />
+    <br />
+    <span style="color: rgb(67, 73, 85); font-family: &quot;PT Sans&quot;, sans-serif; font-size: 15px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;"><br />
+    <br />
+    <br />
+    </span>
+</asp:Content>

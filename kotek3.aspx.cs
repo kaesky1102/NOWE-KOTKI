@@ -7,16 +7,11 @@ using System.Web.UI.WebControls;
 
 namespace NOWE_KOTKI
 {
-    public partial class NestedMasterPage7 : System.Web.UI.MasterPage
+    public partial class kotek31 : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
 
-        }
-
-        protected void Button1_Click(object sender, EventArgs e)
-        {
-            Response.Redirect("./NestedMasterPage8.aspx");
         }
     }
 }
